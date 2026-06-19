@@ -1,3 +1,64 @@
+# Pandas -
+- Pandas is an open-source Python library.
+- Before training a Machine Learning model, data must be Loaded, Cleaned, Processed, Analyzed and Converted into suitable format.
+- Pandas performs all these tasks.
+- Pandas has two major data structures:
+
+1. Series (1D)
+2. DataFrame (2D)
+
+### 1. Series -                                                                                                                                                      -
+- Series is a one-dimensional labeled array.
+
+            import pandas as pd
+            s = pd.Series([10,20,30,40])
+            print(s)
+
+### 2. DataFrame -
+- DataFrame is a two-dimensional table.
+
+            import pandas as pd
+            data = {
+                "Name":["John","Alice","Bob"],
+                "Age":[25,22,30]
+            }
+            
+            df = pd.DataFrame(data)
+            
+            print(df)
+
+# Common Pandas Functions
+
+| Function | Purpose | Example | Output |
+|----------|---------|---------|--------|
+| `read_csv()` | Load CSV | `pd.read_csv("data.csv")` | DataFrame loaded |
+| `head()` | First rows | `df.head(3)` | First 3 rows |
+| `tail()` | Last rows | `df.tail(2)` | Last 2 rows |
+| `info()` | Dataset info | `df.info()` | Columns, data types, null counts |
+| `describe()` | Statistics | `df.describe()` | Mean, std, min, max, etc. |
+| `shape` | Rows & columns | `df.shape` | `(5, 3)` |
+| `columns` | Column names | `df.columns` | `['Name', 'Age', 'City']` |
+| `dtypes` | Data types | `df.dtypes` | `Name: object, Age: int64` |
+| `loc[]` | Label indexing | `df.loc[0]` | First row by label |
+| `iloc[]` | Position indexing | `df.iloc[0]` | First row by position |
+| `groupby()` | Group data | `df.groupby('City').mean()` | Grouped summary |
+| `merge()` | Join tables | `pd.merge(df1, df2, on='ID')` | Combined table |
+| `concat()` | Combine tables | `pd.concat([df1, df2])` | Stacked tables |
+| `drop()` | Remove rows/columns | `df.drop('Age', axis=1)` | DataFrame without Age column |
+| `fillna()` | Fill missing values | `df.fillna(0)` | Null values replaced with 0 |
+| `dropna()` | Remove null values | `df.dropna()` | Rows with null values removed |
+| `sort_values()` | Sort data | `df.sort_values('Age')` | Data sorted by Age |
+
+
+
+
+
+
+
+
+
+
+
 # Matplotlib -
 - Matplotlib is the most popular Python library used for data visualization. It helps us create graphs, charts, and plots from data.
 - It was developed by John D. Hunter in 2003 and is widely used in:
