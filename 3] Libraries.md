@@ -169,7 +169,7 @@
 | `la.solve()` | Solves a system of linear equations. |
 | `la.norm()` | Calculates the length (magnitude) of a vector or matrix. |
 
-# NumPy Random Functions (`numpy.random`)
+## NumPy Random Functions (`numpy.random`)
 
 | Function | Simple Explanation |
 |----------|-------------------|
@@ -180,10 +180,29 @@
 | `random.shuffle()` | Randomly rearranges (shuffles) the elements of an array. |
 
 
+# Seaborn -
+- Seaborn is a Python library used for statistical data visualization.
+- It is built on top of Matplotlib and integrates closely with Pandas DataFrames.
+- It simplifies the process of creating complex visualizations with fewer lines of code compared to Matplotlib.
 
+            import seaborn as sns
 
+## Common Seaborn Functions
 
-
+| Function | Purpose | Example | Output |
+|----------|---------|---------|--------|
+| `scatterplot()` | Scatter plot | `sns.scatterplot(x='Age', y='Salary', data=df)` | Displays relationship between Age and Salary |
+| `lineplot()` | Line graph | `sns.lineplot(x='Month', y='Sales', data=df)` | Shows trend over time |
+| `histplot()` | Histogram | `sns.histplot(df['Age'])` | Shows frequency distribution of Age |
+| `kdeplot()` | Density curve | `sns.kdeplot(df['Age'])` | Smooth distribution curve |
+| `boxplot()` | Outlier detection | `sns.boxplot(x='Age', data=df)` | Shows median, quartiles, and outliers |
+| `violinplot()` | Distribution analysis | `sns.violinplot(x='Gender', y='Salary', data=df)` | Shows distribution and density |
+| `barplot()` | Category averages | `sns.barplot(x='Department', y='Salary', data=df)` | Shows average values by category |
+| `countplot()` | Category counts | `sns.countplot(x='Gender', data=df)` | Counts occurrences of categories |
+| `heatmap()` | Correlation matrix | `sns.heatmap(df.corr(), annot=True)` | Visualizes correlations |
+| `pairplot()` | Feature relationships | `sns.pairplot(df)` | Shows relationships among all features |
+| `jointplot()` | Combined visualization | `sns.jointplot(x='Age', y='Salary', data=df)` | Scatter plot with distributions |
+| `regplot()` | Regression analysis | `sns.regplot(x='Age', y='Salary', data=df)` | Scatter plot with regression line |
 
 
 
