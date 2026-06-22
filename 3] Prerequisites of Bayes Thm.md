@@ -178,14 +178,54 @@ Relationship:
 
 X ↑ → Y ↑
 
+# Conditional probability -
+- Conditional Probability is the probability of an event occurring given that another event has already occurred.
+- Conditional probability means probability under a condition.
+- The probability of A given B is written as:
+
+        P(A|B)
+
+- Formula:
+
+         P(A|B) = P(A ∩ B) / P(B)
+
+- A fair coin is tossed three times.
+- Let:
+
+     - Event A = "At least 2 tails appear."
+     - Event B = "The first coin shows Head."
+
+- **Sample Space-**
+       
+            (S): {HHH, HHT, HTH, HTT, THH, THT, TTH, TTT}
+            Total outcomes = 8
+  
+- **Event A (At Least 2 Tails)-
+
+            A = {HTT, THT, TTH, TTT}
+            P(A) = 4/8 = 1/2
+
+- **Event B (First Coin Shows Head)**
+
+            B = {HHH, HHT, HTH, HTT}
+            P(B) = 4/8 = 1/2
+
+- **Find A ∩ B**
+- We need outcomes that satisfy both: At least 2 tails, First coin is Head
+
+            From A: {HTT, THT, TTH, TTT}
+            From B:{HHH, HHT, HTH, HTT}
+
+           A ∩ B = {HTT}
+           P(A ∩ B) = 1
+
+- **Calculate Conditional Probability-**
 
 
-
-
-
-
-
-
+            P(A|B) = P(A∩B) / P(B)
+            P(A|B) = (1/8) / (4/8)
+            P(A|B) = 1/8 × 8/4
+            P(A|B) = 1/4
 
 
   
