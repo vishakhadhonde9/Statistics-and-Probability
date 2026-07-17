@@ -46,12 +46,31 @@
 **a) Nominal Data:** Nominal data consists of categories that have no natural order or ranking.
 **b) Ordinal Data:** Ordinal data contains categories that follow a meaningful order or ranking, but the differences between categories are not necessarily equal.
 
-##### 
+#### Statistical Summary -
+- Statistical Summary provides a quick numerical overview of a dataset.
+- It helps understand the central tendency, spread, and distribution of the data.
 
+## 3. Data Cleaning -
+- Data Cleaning (also called Data Cleansing or Data Scrubbing) is the process of identifying and correcting or removing errors, inconsistencies, duplicates, missing values, and inaccurate data from a dataset.
+- The goal is to improve the quality, accuracy, consistency, and reliability of data before analysis or machine learning.
 
+### 1. Handle Missing Values-
+- Missing values occur when some data fields are empty, unavailable, or contain no value.
+- **Methods to Handle Missing Values:**
+  - Remove rows or columns with many missing values.
+  - Replace (Impute) missing values using:
+  - Mean – Average value (for numerical data)
+  - Median – Middle value (useful when data has outliers)
+  - Mode – Most frequent value (for categorical data)
+  - Constant Value – e.g., "Unknown" or 0
 
-
-
+### 2. Removing Duplicate Data-
+- Duplicate data refers to repeated records that represent the same information in a dataset.
+- These duplicates can lead to inaccurate analysis and incorrect results.
+- **Methods to Remove Duplicates:**
+  - Identify duplicate records using unique fields (e.g., ID or Email).
+  - Keep only one copy of each duplicate record.
+  - Delete or merge the repeated records.
 
 
 
