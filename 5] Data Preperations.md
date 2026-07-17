@@ -72,6 +72,38 @@
   - Keep only one copy of each duplicate record.
   - Delete or merge the repeated records.
 
+### 3 Handling Outliers-
+- Outliers are data values that are significantly higher or lower than the rest of the observations in a dataset.
+- They may occur due to data entry errors, measurement errors, or genuine rare events
+
+### Outlier Detection Methods-
+#### 1. Z-Score Method-
+- The Z-Score Method is a statistical technique used to detect outliers by measuring how many standard deviations a data point is away from the mean.
+- A data point with a very high or very low Z-score is considered an outlier.
+
+        Z = (X − μ) / σ
+        
+        Where:
+        Z = Z-Score
+        X = Data value (observation)
+        μ (Mean) = Average of the dataset
+        σ (Standard Deviation) = Measure of how spread out the data is
+
+- **Interpretation-**
+- Z = 0 → The data value is exactly equal to the mean.
+- Z > 0 → The data value is above the mean.
+- Z < 0 → The data value is below the mean.
+- |Z| > 2 → The data value is relatively far from the mean.
+- |Z| > 3 → The data value is often considered an outlier.
+
+
+
+
+
+
+
+
+
 
 
 
