@@ -42,6 +42,11 @@
 #### 2. Categorical Data -
 - Categorical data represents categories, groups, or labels rather than numerical quantities.
 
+##### Types of Categorical Data -
+**a) Nominal Data:** Nominal data consists of categories that have no natural order or ranking.
+**b) Ordinal Data:** Ordinal data contains categories that follow a meaningful order or ranking, but the differences between categories are not necessarily equal.
+
+##### 
 
 
 
