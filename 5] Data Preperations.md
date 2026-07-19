@@ -97,6 +97,39 @@
 - |Z| > 3 → The data value is often considered an outlier.
 
 
+#### 2. IQR Method-
+- The Interquartile Range (IQR) Method is a statistical technique used to detect outliers by measuring the spread of the middle 50% of the data.
+- Unlike the Z-Score Method, the IQR method does not depend on the mean and standard deviation, making it more reliable for datasets that contain extreme values or are not normally distributed.
+- Quartiles divide a sorted dataset into four equal parts.
+
+0%        25%          50%          75%          100%
+|----------|------------|------------|-------------|
+Minimum     Q1         Median         Q3         Maximum
+
+
+- **First Quartile (Q1)**
+- Also called the 25th percentile
+- 25% of data lies below Q1.
+- 75% lies above it.
+- **Second Quartile (Q2)**
+- Also called the Median
+- 50% of values lie below it.
+- 50% lie above it.
+- **Third Quartile (Q3)**
+- Also called the 75th percentile
+-75% of values lie below it.
+-25% lie above it.
+
+### Interquartile Range (IQR)
+- The Interquartile Range (IQR) measure he spread of the middle 50% of the data.
+- It ignores the smallest 25% and largest 25% of values, making it resistant to extreme values.
+- Formula
+
+      IQR=Q3−Q1
+	​
+      Where:
+        Q1 = First Quartile (25%)
+        Q3 = Third Quartile (75%)
 
 
 
