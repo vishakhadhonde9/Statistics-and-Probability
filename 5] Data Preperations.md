@@ -141,11 +141,47 @@
 
 - Values outside this range are outliers.
 
+## Data Integration -
+- Data Integration is the process of combining data from multiple sources into a single, unified, and consistent dataset.
+- The goal is to provide a complete and accurate view of the data for analysis, reporting, and machine learning.
+- Instead of working with separate datasets, data integration merges them into one dataset that can be easily analyzed.
 
+### Types of Data Integration
+#### 1. Manual Integration
+- Manual integration is the process of collecting and combining data from multiple sources manually using tools like spreadsheets, CSV files, or reports.
+- It export data from different systems. Copy and merge the data manually and create a final dataset for analysis.
+- **Advantages:** Simple for small datasets. No special software required. Low implementation cost. Easy to understand.
+- **Disadvantages:** Time-consuming. Error-prone due to manual handling. Difficult to maintain. Not suitable for large datasets.
 
+#### 2. ETL (Extract, Transform, Load)
+- ETL is one of the most widely used data integration processes.
+- It extracts data from multiple sources, transforms it into a consistent and clean format, and loads it into a target system such as a database or data warehouse.
+- **Step 1: Extract**
+	- Collect data from multiple sources such as: Databases, CSV/Excel files, APIs, Cloud storage and Enterprise applications
+- **Step 2: Transform**
+	- The extracted data is cleaned and standardized before loading.
+	- Transformation includes remove duplicate records, handle missing values, standardize date and time formats, convert data types (e.g., text to integer), Validate data quality and merge data from different sources.
+- **Step 3: Load**
+	- Store the transformed data into a target system such as Data Warehouse, Database and Data Lake.
 
+#### . ELT (Extract, Load, Transform)
+- ELT is a modern data integration approach where raw data is first loaded into the destination system, and transformations are performed afterward using the processing power of the target system.
+- **Step 1: Extract**
+	- Collect raw data from various data sources.
+- **Step 2: Load**
+	- Load the raw data directly into a cloud data warehouse or data lake without modifying it.
+- **Step 3: Transform**
+	- Transform and clean the data inside the destination system.
 
+## Difference Between ETL and ELT
 
-
+| Feature | ETL | ELT |
+|---------|-----|-----|
+| **Process** | Extract → Transform → Load | Extract → Load → Transform |
+| **Transformation** | Data is transformed before loading | Data is transformed after loading |
+| **Target System** | Suitable for traditional data warehouses | Suitable for cloud data warehouses |
+| **Processing** | Requires a separate ETL server | Uses the processing power of the target system |
+| **Performance** | Faster queries after loading | Faster loading of raw data |
+| **Best For** | Structured data | Structured, semi-structured, and large datasets |
 
 
