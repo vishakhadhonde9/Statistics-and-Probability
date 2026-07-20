@@ -102,9 +102,9 @@
 - Unlike the Z-Score Method, the IQR method does not depend on the mean and standard deviation, making it more reliable for datasets that contain extreme values or are not normally distributed.
 - Quartiles divide a sorted dataset into four equal parts.
 
-0%        25%          50%          75%          100%
-|----------|------------|------------|-------------|
-Minimum     Q1         Median         Q3         Maximum
+			0%        25%          50%          75%          100%
+			|----------|------------|------------|-------------|
+			Minimum     Q1         Median         Q3         Maximum
 
 
 - **First Quartile (Q1)**
