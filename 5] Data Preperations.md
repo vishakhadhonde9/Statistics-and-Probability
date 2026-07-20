@@ -192,7 +192,11 @@
 - Data type mismatches must be corrected before merging datasets.
 - Schema differences require proper field mapping to successfully integrate data from multiple sources.
 
-
+ ## Data Transformation  -
+ -  Data Transformation is the process of converting, modifying  or restructuring data into a suitable format for analysis, reporting, or machine learning.
+-  Raw data often comes in different formats, scales, and structures. Data transformation ensures that the data is consistent, clean, and ready for processing.
+-  It  improve data quality, compatibility, and model performance by transforming data into a standardized and meaningful format.
+-  
 
 
 
