@@ -128,10 +128,18 @@
       IQR=Q3−Q1
 	​
       Where:
-        Q1 = First Quartile (25%)
-        Q3 = Third Quartile (75%)
+       - Q1 = First Quartile (25%)
+       - Q3 = Third Quartile (75%)
 
+- Lower boundary:
 
+		Q1 - 1.5 × IQR
+
+- Upper boundary:
+
+		Q3 + 1.5 × IQR
+
+- Values outside this range are outliers.
 
 
 
