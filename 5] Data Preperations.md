@@ -173,7 +173,7 @@
 - **Step 3: Transform**
 	- Transform and clean the data inside the destination system.
 
-## Difference Between ETL and ELT
+#### Difference Between ETL and ELT
 
 | Feature | ETL | ELT |
 |---------|-----|-----|
@@ -183,5 +183,20 @@
 | **Processing** | Requires a separate ETL server | Uses the processing power of the target system |
 | **Performance** | Faster queries after loading | Faster loading of raw data |
 | **Best For** | Structured data | Structured, semi-structured, and large datasets |
+
+#### Challanges -
+- Different data formats require conversion before integration.
+- Duplicate records should be identified and removed to maintain data accuracy.
+- Inconsistent data must be standardized to ensure reliable analysis.
+- Missing values should be handled through imputation or removal.
+- Data type mismatches must be corrected before merging datasets.
+- Schema differences require proper field mapping to successfully integrate data from multiple sources.
+
+
+
+
+
+
+
 
 
